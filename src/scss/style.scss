@@ -1,0 +1,14 @@
+@use "sass:math";
+
+// Підключення з папки base
+@import "base/mixins";
+@import "base/null.scss";
+@import "base/vars.scss";
+@import "base/base.scss";
+@import "fonts/fonts.scss";
+// Підключення стилів повторювалььних блоків
+@import "./addition/header.scss";
+@import "./addition/footer.scss";
+
+// Підключення стилів окремих сторінок
+@import "home";
